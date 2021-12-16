@@ -220,6 +220,7 @@ const App = () => {
       // call Solana program here
       getGifList();
     }
+  // eslint-disable-next-line
   }, [walletAddress]);
   
   return (
